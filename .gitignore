@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.vercel/
+.idea/
+.trae/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Output directories
+results/
+output/
+demo_results/
+web_reports/
+logs/
+
+# Test
+test/
+demo.py
