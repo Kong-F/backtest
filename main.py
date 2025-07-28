@@ -6,8 +6,8 @@
 基于EMA通道策略的加密货币投资回测工具
 支持多种代币、时间周期和EMA参数配置
 
-作者: Solo Coding
-日期: 2024
+作者: Kong by Trae's Solo Coding
+日期: 2025
 """
 
 import argparse
