@@ -97,9 +97,9 @@ class DataFetcher:
         df = self._fetch_from_source(symbol, start_date, end_date, interval, primary_source, market_type)
 
         # 特殊处理某些加密货币的异常情况
-        if market_type == 'crypto' and symbol.lower() in ["uni", "pepe"]:
+        # if market_type == 'crypto' and symbol.lower() in ["uni", "pepe"]:
             # yfinance 的某些交易对价格异常
-            df = None
+            # df = None
         
         # 如果主要数据源失败，尝试备用数据源
         if df is None or df.empty:

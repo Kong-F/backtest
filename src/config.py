@@ -69,7 +69,11 @@ class Constants:
         'LINK': 'LINK-USD',
         'MATIC': 'MATIC-USD',
         'AVAX': 'AVAX-USD',
-        'ATOM': 'ATOM-USD'
+        'ATOM': 'ATOM-USD',
+        'XRP': 'XRP-USD',
+        'LTC': 'LTC-USD',
+        'DOGE': 'DOGE-USD',
+        'PEPE': 'PEPE-USD'
     }
     
     # 美股示例代码
